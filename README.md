@@ -1,7 +1,7 @@
 # 📋 Cadastro de Pessoas - CRUD Simples (API + Front-end)
 # projeto em andamento
 
-Este é um projeto simples para treinar **CRUD** (Create, Read, Update, Delete) com conexão entre **API (Node.js + Express)** e **Front-end (HTML + JavaScript)**.  
+Este é um projeto simples para treinar **CRUD** (Create, Read, Update, Delete) com conexão entre **API (Node.js + Express)** e **Front-end (React + JavaScript)**.  
 O objetivo é entender como o **back-end** e o **front-end** trocam informações usando requisições HTTP.
 
 ---
