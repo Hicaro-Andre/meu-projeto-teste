@@ -1,10 +1,13 @@
 import dotenv from 'dotenv'
 import express from 'express'
 import routes from './routes/routes.js'
+import connectDB from './settings/database-conection.js'
 
 //inicialização do dotenv
 dotenv.config()
 
+//database
+connectDB();
 
 /* Inicializo o express, converto as respostas para arquivo json 
 e registro todas as rotas definidas no arquivo de rotas */
