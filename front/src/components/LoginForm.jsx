@@ -73,7 +73,9 @@ const LoginForm = () => {
               className="toggle-password"
               onClick={() => setMostrarSenha(!mostrarSenha)}
             >
-              <i className={`fas ${mostrarSenha ? "fa-eye-slash" : "fa-eye"}`} />
+              <i
+                className={`fas ${mostrarSenha ? "fa-eye-slash" : "fa-eye"}`}
+              />
             </button>
             {erros.senha && <p className="error-message">{erros.senha}</p>}
           </div>
@@ -81,8 +83,9 @@ const LoginForm = () => {
           {/* Botão entrar */}
           <div className="form-actions">
             <button type="submit" className="btn btn-primary">
-              Entrar <i className="fas fa-arrow-right"></i>
+              Entrar <i className="fas fa-user-plus"></i>
             </button>
+            <a href="home">para testar a home "provisório"</a>
           </div>
 
           {/* Cadastro */}
