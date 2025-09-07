@@ -1,13 +1,20 @@
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import LoginForm from './components/LoginForm'
+import Login from "./pages/Login"
+import Cadastro from "./pages/Cadastro"
+import Home from "./pages/Home"
 
 function App() {
 
 
   return (
-    <>
-    <LoginForm/>
-    </>
+ 
+      <Routes>
+        <Route path='/' element = {<Login/>}/>
+        <Route path='/cadastro' element = {<Cadastro/>}/>
+        <Route path='/home' element = {<Home/>}/>
+      </Routes>
+   
   )
 }
 
